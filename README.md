@@ -121,3 +121,13 @@ Python libraries: Pandas, NumPy, Matplotlib, scikit-learn
 
 _______________________________________________________________________________________________
 
+ Naive Bayes Classifier to predict survival on the Titanic dataset. 
+ It involves data preprocessing, feature encoding, handling missing values, and model evaluation. Key steps include:
+
+Data Cleaning: Handled missing values by imputing median and mode, and dropped irrelevant columns like 'Cabin' and 'Ticket'.
+Feature Encoding: Encoded categorical features ('Pclass', 'Embarked', 'Sex') using one-hot encoding.
+Model Training: Split data into training and testing sets, and trained a Gaussian Naive Bayes classifier.
+Evaluation Metrics: Assessed model performance using accuracy, precision, recall, F1-score, and cross-validation scores.
+This classifier achieved reliable performance and highlights the utility of Naive Bayes for binary classification tasks.
+
+_______________________________________________________________________________________________________________________
