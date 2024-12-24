@@ -96,3 +96,28 @@ Model predictions are evaluated on the test set with a confusion matrix.
 Accuracy is computed to assess performance.
 ________________________________________________________________________________________________________________
 
+Logistic Regression Model to predict heart disease based on the Heart Attack Dataset. The process involves:
+
+Data Preprocessing:
+
+Checked for missing values and duplicates, then removed duplicates.
+Visualized data distributions using histograms to identify scaling requirements.
+Scaled numeric features using StandardScaler for normalization.
+Feature Selection and Splitting:
+
+Divided features into numeric and categorical groups.
+Split the data into training and testing sets.
+Model Implementation:
+
+Built a custom Logistic Regression class with gradient descent optimization.
+Utilized the Sigmoid function for classification.
+Model Training and Evaluation:
+
+Trained the model on scaled features.
+Measured performance using Accuracy, Precision, and Recall metrics.
+Tools Used:
+
+Python libraries: Pandas, NumPy, Matplotlib, scikit-learn
+
+_______________________________________________________________________________________________
+
