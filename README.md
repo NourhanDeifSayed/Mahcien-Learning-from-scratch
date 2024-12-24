@@ -39,4 +39,60 @@ Seaborn: For visualizing data relationships and patterns.
 
 ---------------------------------------------------------------------------------------------------------------------
 
+Support Vector Machine (SVM) Classification on Multiple Datasets
+
+This project demonstrates the use of Support Vector Machines (SVM) for classification on several datasets. The datasets used include Aggregation, Jain, Flame, Pathbased, and Compound, and are processed to predict binary classifications using the SVM with a radial basis function (RBF) kernel.
+
+Key Steps:
+Data Loading & Preprocessing:
+
+Datasets are loaded using pandas and preprocessed by splitting into features (X) and labels (y).
+Data is split into training and testing sets using train_test_split.
+Model Training:
+
+An SVM model with an RBF kernel is used for training on each dataset.
+The model is trained on the training data and evaluated on the test data for performance.
+Visualization:
+
+The decision boundary is visualized using matplotlib, displaying how the classifier separates the classes for each dataset.
+Random points are generated across the feature space, and their classifications are visualized alongside the actual training data.
+Performance Evaluation:
+
+The accuracy of the model is calculated by comparing predicted values (y_pred) to the actual test labels (y_test).
+This code provides a comprehensive view of SVM classification on multiple datasets, showcasing the importance of kernel choice and data visualization in understanding classifier behavior.
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+MNIST Handwritten Digit Classification Using Neural Networks
+
+
+This project implements a custom neural network from scratch to classify handwritten digits from the MNIST dataset. It involves data preprocessing, neural network initialization, feedforward propagation, and backpropagation for weight updates. Model performance is evaluated using a Confusion Matrix and Accuracy Score.
+
+Key Features:
+
+Dataset Used: MNIST handwritten digit dataset.
+Data Preprocessing:
+Reshaped and normalized input features to prepare for training.
+Split data into training and testing sets.
+Neural Network Architecture:
+Input layer size: 784 (28x28 images).
+Hidden layer size: 120 neurons.
+Output layer size: 10 neurons (digits 0–9).
+Activation Function: Sigmoid for hidden and output layers.
+Evaluation Metrics: Confusion Matrix and Accuracy Score.
+
+Technologies Used:
+Python
+NumPy
+Pandas
+Matplotlib
+scikit-learn
+Keras (MNIST dataset loader)
+Results:
+
+Model predictions are evaluated on the test set with a confusion matrix.
+Accuracy is computed to assess performance.
+________________________________________________________________________________________________________________
 
