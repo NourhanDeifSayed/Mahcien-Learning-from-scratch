@@ -14,4 +14,26 @@ Algorithms: K-Nearest Neighbors, Euclidean Distance, Voting System
 Libraries: NumPy, pandas, scikit-learn
 Model Evaluation: Accuracy, Model Validation
 Data Preprocessing: Data Splitting, Feature Normalization
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Linear Regression and Least Squares Classifier for Iris Dataset
+This project demonstrates the implementation of linear regression models and a custom least squares classifier for predicting Iris species and analyzing linear relationships.
+
+Linear Regression Model:
+Linear Regression without Noise: Defined a simple linear equation y = 2x + 1 and trained a model using LinearRegression from sklearn.
+Linear Regression with Noise: Introduced random noise to the data and retrained the model to show how noise affects the regression line and its parameters.
+Visualization: Plotted both the original data and noisy data along with their respective regression lines to visually compare the effect of noise.
+Least Squares Classifier:
+Implemented a custom Least Squares Classifier to perform binary classification of Iris species using the Iris dataset.
+Split the dataset into training and test sets and visualized the decision boundary for classifying two species of Iris.
+Evaluated the classifier's performance with a scatter plot displaying the classified points for test data.
+Libraries Used:
+NumPy: For mathematical and array operations.
+Matplotlib: For visualizing regression lines and decision boundaries.
+Scikit-learn: For model training and data preprocessing.
+Seaborn: For visualizing data relationships and patterns.
+
+---------------------------------------------------------------------------------------------------------------------
+
 
